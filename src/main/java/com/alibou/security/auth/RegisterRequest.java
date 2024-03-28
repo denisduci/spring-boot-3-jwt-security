@@ -1,20 +1,31 @@
 package com.alibou.security.auth;
 
 import com.alibou.security.user.Role;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import jakarta.validation.constraints.NotBlank;
+import lombok.*;
+import org.springframework.validation.annotation.Validated;
 
-@Data
+@Getter
+@Setter
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
+@Validated
 public class RegisterRequest {
 
-  private String firstname;
-  private String lastname;
-  private String email;
-  private String password;
-  private Role role;
+    @NotBlank
+    private String firstName;
+
+    @NotBlank
+    private String lastName;
+
+    @NotBlank
+    private String username;
+
+    @NotBlank
+    private String password;
+
+    @NotBlank
+    private Role role;
+
 }
