@@ -1,4 +1,4 @@
-package com.alibou.security.config;
+package com.denis.security.config;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.io.Decoders;

@@ -1,4 +1,4 @@
-package com.alibou.security.config;
+package com.denis.security.config;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

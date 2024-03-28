@@ -1,4 +1,4 @@
-package com.alibou.security.user;
+package com.denis.security.user;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

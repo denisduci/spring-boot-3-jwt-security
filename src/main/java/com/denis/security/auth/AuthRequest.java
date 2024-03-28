@@ -1,4 +1,4 @@
-package com.alibou.security.auth;
+package com.denis.security.auth;
 
 import lombok.*;
 

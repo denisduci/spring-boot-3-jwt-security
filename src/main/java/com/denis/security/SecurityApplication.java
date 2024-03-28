@@ -1,10 +1,8 @@
-package com.alibou.security;
+package com.denis.security;
 
-import static com.alibou.security.user.Role.ADMIN;
-import static com.alibou.security.user.Role.MANAGER;
-
-import com.alibou.security.auth.AuthService;
-import com.alibou.security.auth.RegisterRequest;
+import com.denis.security.auth.AuthService;
+import com.denis.security.auth.RegisterRequest;
+import com.denis.security.user.Role;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -29,7 +27,7 @@ public class SecurityApplication {
                     .lastName("Admin")
                     .username("admin123")
                     .password("password")
-                    .role(ADMIN)
+                    .role(Role.ADMIN)
                     .build();
             log.info("Admin token: " + service.register(admin).getAccessToken());
 
@@ -38,7 +36,7 @@ public class SecurityApplication {
                     .lastName("Manager")
                     .username("manage123")
                     .password("password")
-                    .role(MANAGER)
+                    .role(Role.MANAGER)
                     .build();
             log.info("Manager token: " + service.register(manager).getAccessToken());
 

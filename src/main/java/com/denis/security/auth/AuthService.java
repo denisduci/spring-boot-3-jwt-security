@@ -1,8 +1,8 @@
-package com.alibou.security.auth;
+package com.denis.security.auth;
 
-import com.alibou.security.config.JwtService;
-import com.alibou.security.user.User;
-import com.alibou.security.user.UserRepository;
+import com.denis.security.config.JwtService;
+import com.denis.security.user.User;
+import com.denis.security.user.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

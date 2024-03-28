@@ -1,6 +1,6 @@
-package com.alibou.security.auth;
+package com.denis.security.auth;
 
-import com.alibou.security.user.Role;
+import com.denis.security.user.Role;
 import jakarta.validation.constraints.NotBlank;
 import lombok.*;
 import org.springframework.validation.annotation.Validated;

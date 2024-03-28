@@ -1,6 +1,6 @@
-package com.alibou.security.config;
+package com.denis.security.config;
 
-import com.alibou.security.user.UserRepository;
+import com.denis.security.user.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package com.alibou.security.user;
+package com.denis.security.user;
 
 import jakarta.persistence.*;
 

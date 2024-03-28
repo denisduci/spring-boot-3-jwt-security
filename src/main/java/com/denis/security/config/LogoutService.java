@@ -1,4 +1,4 @@
-package com.alibou.security.config;
+package com.denis.security.config;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

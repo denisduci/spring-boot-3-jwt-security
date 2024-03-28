@@ -1,4 +1,4 @@
-package com.alibou.security.demo;
+package com.denis.security.demo;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
